@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(173, 166, 166)  !important;
+}
+
+/* Header Section */
+ 
+.navbar {
+  position: sticky !important;
+  background-color: black;
+}
+
+.navmain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navmain a{
+  margin: 1rem;
+  color: rgb(143, 140, 140);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+
+/* User Section */
+
+.user input{
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+}
